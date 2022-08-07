@@ -1,0 +1,157 @@
+
+body{
+	background-image: url(./fondo2.jpg);
+    background-size:contain;
+}
+/*about*/
+#about p{
+    font-size: 20px;
+    margin: 20px;
+}
+@media (max-width:  576px) {
+    #about p{
+    font-size: 14px;
+}
+}
+/*navbar*/
+.navbar-toggler{
+    color: rgba(149, 24, 24, .8);
+}
+
+
+/*movie cards*/
+.overlay {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(151, 133, 133);
+    position: absolute;
+    height: 100%;
+    background-color: rgba(149, 24, 24, .8);
+    opacity: 0;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: .2s;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.overlay:hover {
+    opacity: 1;
+    transition: .4s;
+}
+
+.overlay h5,.overlay p{
+    margin-top: 60px;
+}
+.overlay h2{
+    margin-top: 150px;
+}
+.titles{
+    color:rgba(149, 24, 24, .8);
+    
+}
+.titles h3{
+    text-align: center;
+}
+.titles h3:hover{
+    color: rgb(177, 171, 171);
+}
+.card{
+
+    background-color: black;
+}
+.card:hover{
+    cursor: pointer;
+}
+#printInfo .card, #printDirector .card, #printBook .card, #printSearch .card{
+    margin: 10px;
+
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+/*Modal*/
+.modal-title, small{
+    color:rgba(149, 24, 24, .8);
+}
+.modal-header{
+    border: none;
+}
+.page-footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(149, 24, 24, .8);
+    color: rgb(151, 138, 138);
+    text-align: center;
+  }
+  
+.nav-link{
+    margin-right:30px;
+    margin-left:130px;
+}
+
+nav.navbar {
+    background-color:black;
+    margin-top:35px;
+    margin-bottom:30px;
+}
+.nav-link:hover{
+color:#9f9292;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:red;
+    }
+ 
+ .form-inline input {
+
+    color: #2b303b;
+    border-color: black;
+   text-align: center;
+ }
+ .nav-link{
+     color:rgba(149, 24, 24, .8);
+     font-size:28px;
+ }
+ .nav-link:hover{
+    color: rgb(146, 139, 139);
+
+ }
+ .form-control {
+     background-color: #2b303b;
+     height:36px;
+ }
+/* #about{
+     font-size:28px;
+     margin-left:115px;
+     margin-right:60px;
+     margin-top:80px;
+     
+ }*/
+#btn{
+margin-left:550px;
+margin-top:45px;
+margin-bottom:35px;
+color:red;
+height:50px;
+width:250px;;
+font-size:20px;
+ }
+#qurybox{
+     margin-left:40px;
+ }
+ .form-inline{
+     margin-right:60px;
+ }
+ @media (max-width: 700px) {
+    .navbar-toggler{
+    
+    background-color:rgba(149, 24, 24, .8);
+    border-color: rgba(255, 0, 0, 0.85);
+    }
+    }
+    
+.col-12{ width:auto;}
